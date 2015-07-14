@@ -1,2 +1,0 @@
-# SASTNF
-Sistema Académico Stanford

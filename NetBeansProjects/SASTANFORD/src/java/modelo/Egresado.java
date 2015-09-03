@@ -11,7 +11,7 @@ package modelo;
  */
 public class Egresado {
    private Integer codigo;
-   private Estudiante estudiante;
+   private CEstudiante estudiante;
    private Modalidad modalidad;
    private Boolean estado;
    private Integer tiempo_trabajo;
@@ -24,11 +24,11 @@ public class Egresado {
         this.codigo = codigo;
     }
 
-    public Estudiante getEstudiante() {
+    public CEstudiante getCEstudiante() {
         return estudiante;
     }
 
-    public void setEstudiante(Estudiante estudiante) {
+    public void setCEstudiante(CEstudiante estudiante) {
         this.estudiante = estudiante;
     }
 
@@ -56,7 +56,7 @@ public class Egresado {
         this.tiempo_trabajo = tiempo_trabajo;
     }
 
-    public Egresado(Integer codigo, Estudiante estudiante, Modalidad modalidad, Boolean estado, Integer tiempo_trabajo) {
+    public Egresado(Integer codigo, CEstudiante estudiante, Modalidad modalidad, Boolean estado, Integer tiempo_trabajo) {
         this.codigo = codigo;
         this.estudiante = estudiante;
         this.modalidad = modalidad;
